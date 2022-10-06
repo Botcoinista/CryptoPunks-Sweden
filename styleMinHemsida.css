@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {    
+    background-color:pink ; 
+     background-image: url(https://img.capital.com/imgs/articles/1324x616x1/shutterstock_1923715325.jpg);
+background-size:1920px, 720px;
+}
+
+h1{
+    color: #f98901;
+    font-family:monospace;
+    font-size: 80px;
+    /* text-align: center;   */
+    margin: 2rem 4rem;
+}
+
+.buttonLogIn {
+    color: rgba(0, 0, 0, 0.625);
+    background-color: rgb(41, 242, 5);
+    /* height: 2rem; */
+    width: 5rem;
+    padding: .8em 1.8em;
+    width: 100%;
+    cursor: pointer;
+    margin: 2px;
+    
+}
+
+.buttonLogOut {
+    color: rgb(223, 60, 5);
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: .8em 1.8em;
+    cursor: pointer;
+    margin: 2px;
+}
+
+#regform {
+    background-color: rgb(235, 182, 5);
+    margin: 4rem 5rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 4px 4px 6px #00000025;
+    max-width: 350px;
+}
+
+.container{
+    max-width: 100 px;
+}
+
+#input {
+    background-color: bisque; 
+    width:100%;
+    font-size: 14px;
+}
+
+.card{
+    background-color: rgb(235, 182, 5);
+    margin: 10rem 5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: 4px 4px 6px #00000025;
+    max-width: 350px;
+    max-height: 300px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.text-center {
+    color:firebrick ;
+    margin: 1rem
+}
+
+.p-card {
+    color: black;
+    font-size: 14px;
+    margin: 1rem
+}
